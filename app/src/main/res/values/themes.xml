@@ -1,8 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.BaiTH3" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Dung AppCompat thay Material3: nut bam (Button) trong layout da set
+         android:background bang drawable bg_*; theme Material se tu tint/de len
+         mau nen cua nut, AppCompat thi ton trong dung drawable da set. -->
+    <style name="Base.Theme.BaiTH3" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
     <style name="Theme.BaiTH3" parent="Base.Theme.BaiTH3" />
